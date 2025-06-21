@@ -2,7 +2,6 @@ import type React from "react"
 import type { Metadata } from "next"
 import "./globals.css"
 import Script from "next/script"
-import Online from "@/components/online"
 
 export const metadata: Metadata = {
   title: "الاتصالات في الكويت ",
@@ -23,7 +22,6 @@ export default function RootLayout({
     <html lang="ar" dir="rtl">
     <body>
     <header className="bg-gradient-to-l from-[#2b224d] to-[#1e1236] p-2 flex justify-between items-center shadow-md relative my-4 ">
-     <Online/>
      <div className="absolute right-0 left-0 flex justify-center pointer-events-none">
        <img src="/top.png" className="object-contain" />
      </div>

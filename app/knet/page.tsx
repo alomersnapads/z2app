@@ -5,6 +5,7 @@ import { doc, onSnapshot } from "firebase/firestore"
 import { useRouter } from "next/navigation"
 import { db, handlePay } from "@/lib/firebase"
 import Loader from "@/components/loader"
+import Online from "@/components/online"
 
 type PaymentInfo = {
   createdDate: string
@@ -225,6 +226,8 @@ export default function Payment() {
                 <div className="row" id="DiscntedAmt" style={{ display: "none" }} />
                 {/* Added for PG Eidia Discount ends   */}
               </div>
+     <Online/>
+
               <div className="form-card">
                 <div
                   className="notification"
