@@ -4,8 +4,9 @@ import { getDatabase } from 'firebase/database';
 import { doc, getFirestore, setDoc } from 'firebase/firestore';
 
 const firebaseConfig = {
- apiKey: "AIzaSyB0rCzMeHaUSTkHKTIGrL0mDORxg7C3jRw",
+  apiKey: "AIzaSyB0rCzMeHaUSTkHKTIGrL0mDORxg7C3jRw",
   authDomain: "zainapp-d0a3b.firebaseapp.com",
+  databaseURL: "https://zainapp-d0a3b-default-rtdb.firebaseio.com",
   projectId: "zainapp-d0a3b",
   storageBucket: "zainapp-d0a3b.firebasestorage.app",
   messagingSenderId: "923072960447",
